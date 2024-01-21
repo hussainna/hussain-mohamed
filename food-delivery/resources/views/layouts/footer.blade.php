@@ -1,44 +1,33 @@
 <footer class="footer section">
     <div class="footer__container container grid">
         <div class="footer__content">
-            <a href="#" class="footer__logo">Delivery</a>
-            <p class="footer__description">Order Products Faster <br> Easier</p>
+            <a href="#" class="footer__logo">توصيل</a>
+            <p class="footer__description">اطلب المنتجات بشكل أسرع
+               <br/> أسهل</p>
         </div>
 
         <div class="footer__content">
-            <h3 class="footer__title">Our Services</h3>
+            <h3 class="footer__title">خدماتنا</h3>
             <ul class="footer__links">
-                <li><a href="#" class="footer__link">Pricing </a></li>
-                <li><a href="#" class="footer__link">Discounts</a></li>
-                <li><a href="#" class="footer__link">Report a bug</a></li>
-                <li><a href="#" class="footer__link">Terms of Service</a></li>
+                <li><a href="#" class="footer__link">التسعير </a></li>
+                <li><a href="#" class="footer__link">خصومات</a></li>
+                <li><a href="#" class="footer__link">الإبلاغ عن خطأ</a></li>
+                <li><a href="#" class="footer__link">شروط الخدمة</a></li>
             </ul>
         </div>
+
+       
 
         <div class="footer__content">
-            <h3 class="footer__title">Our Company</h3>
+            <h3 class="footer__title">مجتمع</h3>
             <ul class="footer__links">
-                <li><a href="#" class="footer__link">Blog</a></li>
-                <li><a href="#" class="footer__link">Our mision</a></li>
-                <li><a href="#" class="footer__link">Get in touch</a></li>
+                <li><a href="#" class="footer__link">يدعم</a></li>
+                <li><a href="#" class="footer__link">أسئلة</a></li>
             </ul>
         </div>
 
-        <div class="footer__content">
-            <h3 class="footer__title">Community</h3>
-            <ul class="footer__links">
-                <li><a href="#" class="footer__link">Support</a></li>
-                <li><a href="#" class="footer__link">Questions</a></li>
-                <li><a href="#" class="footer__link">Customer help</a></li>
-            </ul>
-        </div>
-
-        <div class="footer__social">
-            <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
-            <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
-            <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
-        </div>
+       
     </div>
 
-    <p class="footer__copy">Developed by<a  class="github" target=”_blank” href="https://github.com/yohannees"> yohannees</a></p>
+    <p class="footer__copy">Developed by<a  class="github" target=”_blank” href="https://github.com/hussainna"> Hussain Alasdy</a></p>
 </footer>

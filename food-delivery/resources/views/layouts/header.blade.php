@@ -5,15 +5,12 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="/" class="nav__link active-link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">About us</a>
+                    <a href="/" class="nav__link active-link">الرئيسية</a>
                 </li>
                 @if (Auth::check()) <!-- Check if user is logged in -->
     <li class="nav__item">
         <a href="{{ route('logout') }}" class="nav__link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-            Logout
+            تسجيل خروج
         </a>
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
@@ -21,10 +18,10 @@
     </li>
     @else
                 <li class="nav__item">
-                    <a href="/register" class="nav__link">Register</a>
+                    <a href="/register" class="nav__link">حساب جديد</a>
                 </li>
                 <li class="nav__item">
-                    <a href="/login" class="nav__link">Login</a>
+                    <a href="/login" class="nav__link">تسجيل دخول</a>
                 </li>
                 @endif
 
@@ -36,6 +33,6 @@
             <i class='bx bx-grid-alt'></i>
         </div>
 
-        <a href="/cart" class="button button__header">Cart</a>
+        <a href="/cart" class="button button__header">سلة المنتجات</a>
     </nav>
 </header>

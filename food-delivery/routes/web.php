@@ -23,6 +23,13 @@ Route::get('/', function () {
 
     return view('master',compact('products'));
 });
+
+Route::get('/single-product/{id}', function ($id) {
+    $product=DB::table('products')->where('id',$id)->first();
+
+    return view('singleProduct',compact('product'));
+});
+
 Route::get('/cart', function () {
     if(auth()->check())
     {
